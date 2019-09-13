@@ -23,9 +23,14 @@ netstat -tulpn | grep 5020
 git clone <repo url>
 ```
 
-* get into the git repo locally and run the python app
-  ```python app.py``` <- foreground
-  ``` nohup python app.py &``` <- background as a daemon
+* Get into the git repo locally and run the python app
+  ```
+  python app.py
+  ``` <- foreground
+
+  ``` 
+  nohup python app.py &
+  ``` <- background as a daemon
   
 * Open a browser and hit the following url
 ```
