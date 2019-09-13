@@ -11,7 +11,7 @@ Logfile viewing for inputted log filename
 
 ## Installation and Setup
 
-* Before installation ensure you have python 2.7 interpretor setup. Flask module must be present or use pip to install it. Ensure that modules like subprocess, os, sys, time are present as well(you should have these once the interpretor is installed.
+* Before installation ensure you have python 2.7 interpretor setup. Flask module must be present or use pip to install it. Ensure that modules like subprocess, os, sys, time are present as well(you should have these once the interpretor is installed).
 
 * Make sure no servcice/process is running on TCP 5020 
 ```
