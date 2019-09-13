@@ -44,3 +44,32 @@ http://localhost:5020
 
 * Refresh the page to view new incoming logs.
   
+  
+## Running the app in a Docker container
+
+* Ensure that you have the docker engine running on the machine where you're going to run this docker container. On ubuntu, you can run the following command to install docker
+
+``` 
+apt install docker-io
+```
+
+* Clone the git repo as shown above
+
+
+* cd into the cloned repo dir and build the image locally
+
+```
+docker build -t python-log-viewer:latest .
+```
+
+* Run the docker container from the created image
+
+```
+docker run -d -p 5020:5020 python-log-viewer
+```
+
+* Access the application in a browser, enter the logfile path and Voila!
+```
+http://<host_ip>:5020
+```
+
