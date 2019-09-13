@@ -24,12 +24,13 @@ git clone <repo url>
 ```
 
 * Get into the git repo locally and run the python app
-** foreground
+
+> foreground
   ```
   python app.py
   ```
   
-** background as a daemon
+> background as a daemon
   ``` 
   nohup python app.py &
   ```
