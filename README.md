@@ -50,7 +50,7 @@ http://localhost:5020
 * Ensure that you have the docker engine running on the machine where you're going to run this docker container. On ubuntu, you can run the following command to install docker
 
 ``` 
-apt install docker-io
+apt install docker.io
 ```
 
 * Clone the git repo as shown above
